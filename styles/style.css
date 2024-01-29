@@ -285,6 +285,8 @@ section {
 .burger__close {
     cursor: pointer;
     display: none;
+    height: 28px;
+    width: 28px;
 }
 
 .drop-menu {
@@ -374,7 +376,7 @@ section {
 
 .modal-profile {
     display: flex;
-
+    width: 600px;
 }
 
 .profile-content__h2 {
@@ -430,6 +432,7 @@ section {
     text-transform: uppercase;
     padding: 5px 15px;
     margin-top: 100px;
+    text-align: center;
 }
 
 .modal-profileIcon {
@@ -439,7 +442,7 @@ section {
     width: 80px;
     height: 80px;
     position: absolute;
-    right: 85px;
+    right: 35%;
 }
 
 .modal-profileIcon p {

@@ -219,10 +219,6 @@ document.querySelector('.logOut').addEventListener('click', function () {
     document.querySelector('.membership-status').style.display = 'none';
 })
 
-
-document.querySelector('[data-modal-btn=modalProfileCard]').addEventListener('click', function (e) {
-    e.target.closest('div').classList.remove('visible')
-})
 //navbar: dropdown profile menu
 const dropMenu = document.querySelector('.drop-menu');
 
@@ -244,6 +240,8 @@ for (let i = 0; i < modalBtns.length; i++) {
             document.querySelector("[data-modal-window=modalRegister]").style.display = 'none'
         } else if (modalBtns[i].getAttribute('id') === 'logIn' || modalBtns[i].getAttribute('id') === 'register') {
             dropMenu.classList.remove('visible')
+        } else if(modalBtns[i].getAttribute('id') === 'modalProfileCard') {
+            document.querySelector('.authorized').classList.remove('visible')
         }
         document.body.style.overflow = 'hidden'
         modal.style.display = 'block';
