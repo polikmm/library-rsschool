@@ -219,15 +219,16 @@ document.querySelector('.logOut').addEventListener('click', function () {
     document.querySelector('.membership-status').style.display = 'none';
 })
 
+
+document.querySelector('[data-modal-btn=modalProfileCard]').addEventListener('click', function (e) {
+    e.target.closest('div').classList.remove('visible')
+})
 //navbar: dropdown profile menu
 const dropMenu = document.querySelector('.drop-menu');
 
 navbarIcon.addEventListener('click', () => {
     dropMenu.classList.toggle('visible');
 })
-
-const mask = document.querySelector('.mask')
-//const wraps = document.querySelectorAll('.wrap')
 
 //modals: logIn  Register  buyCards
 
