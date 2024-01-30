@@ -278,11 +278,21 @@ section {
     background-color: #fff;
 }
 
+.navbar-icon button {
+    border: none;
+    background-color: #000;
+}
 .burger,
 .burger__close {
     cursor: pointer;
     display: none;
 }
+
+.burger:hover,
+.burger__close:hover,
+.navbar-icon__img:hover {
+background-color: #000;
+} 
 
 .drop-menu {
     position: absolute;
