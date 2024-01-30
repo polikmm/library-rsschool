@@ -477,6 +477,7 @@ section {
     color: #BB945F;
     padding-left: 15px;
 }
+
 .modal-close {
     position: relative;
 }
@@ -842,7 +843,7 @@ section {
 }
 
 .coffee-shop {
-    margin-bottom: 7px;
+    margin-bottom: 40px;
 }
 
 .coffee-shop-header {
@@ -870,7 +871,7 @@ section {
     font-family: 'Inter';
 }
 
-.deserts .coffee-shop__h3{
+.deserts .coffee-shop__h3 {
     text-align: right;
 }
 
@@ -891,14 +892,14 @@ section {
     position: relative;
 }
 
-.coffee-shop-card.drinks .coffee-shop-card-item{
-justify-items: starts;
-gap: 59px;
+.coffee-shop-card.drinks .coffee-shop-card-item {
+    justify-items: start;
+    gap: 42px;
 }
 
-.coffee-shop-card.deserts .coffee-shop-card-item{
+.coffee-shop-card.deserts .coffee-shop-card-item {
     justify-items: end;
-    gap: 58px;
+    gap: 18px;
 }
 
 .coffee-shop-card__hr {
@@ -921,19 +922,20 @@ gap: 59px;
 .coffee-shop-card-item p {
     letter-spacing: 2px;
 }
-.contacts__h4 {
-    font-weight: 700;
-    margin-bottom: 40px;
-}
 
-.contacts__h4:last-child {
-    margin-bottom: 20px;
+.contacts__h3 {
+    margin: 7px 0 48px 0;
+    letter-spacing: 2px;
+    text-transform: capitalize;
 }
 
 .contacts-staff__heading {
     font-weight: 700;
     font-family: 'inter';
     margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    padding-top: 23px;
 }
 
 .contacts-stuff.contacts__p a {
@@ -941,18 +943,16 @@ gap: 59px;
     cursor: pointer;
 }
 
+.contacts-staff span {
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
 .contacts__p {
     letter-spacing: 2px;
-    margin-bottom: 24px;
-}
-
-.contacts-stuff {
-    padding-top: 19px;
-}
-
-.contacts-stuff h4 {
-    margin-bottom: 20px;
-    font-weight: 700;
+    margin-bottom: 19px;
+    text-transform: capitalize;
 }
 
 .contacts-info-wrap {
@@ -1020,11 +1020,12 @@ gap: 59px;
 }
 
 .membership-status {
-display: none;
-justify-content: center;
-gap: 35px;
-margin: 15px auto;
+    display: none;
+    justify-content: center;
+    gap: 35px;
+    margin: 15px auto;
 }
+
 .membership__btn {
     letter-spacing: 1px;
     padding: 10px 40px;
@@ -1068,6 +1069,7 @@ margin: 15px auto;
 .membership-profile__btn {
     display: none;
 }
+
 .membership-authorization__btn {
     margin-right: 0;
 }
