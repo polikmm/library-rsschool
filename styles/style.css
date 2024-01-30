@@ -265,20 +265,17 @@ section {
     width: 28px;
     height: 28px;
     border-radius: 50%;
-    background-color: #fff;
-
-}
-
-.profileIcon p {
     color: #BB945F;
-    font-family: 'Inter';
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
-    text-align: center;
-    padding-top: 4px;
-    padding-left: 1px;
+    padding: 2px;
+    border: none;
+}
+
+.profileIcon:hover {
+    background-color: #fff;
 }
 
 .burger,
@@ -310,7 +307,7 @@ section {
     padding-top: 5px;
 }
 
-.drop-menu h5 {
+.drop-menu p {
     cursor: pointer;
     font-size: 15px;
     font-style: normal;

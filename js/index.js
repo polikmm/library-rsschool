@@ -109,8 +109,8 @@ registrForm.addEventListener('submit', function (event) {
         dropMenuAuthorized.style.display = 'block'
         navbarIcon.style.display = 'none'
         profileIcon.style.display = 'block'
-        profileIcon.innerHTML = `<p>${user.name.split('')[0]}${user.lastName.split('')[0]}</p>`;
-        modalProfileIcon.innerHTML = `<p>${user.name.split('')[0]}${user.lastName.split('')[0]}</p>`;
+        profileIcon.innerHTML = `${user.name.split('')[0]}${user.lastName.split('')[0]}`;
+        modalProfileIcon.innerHTML = `${user.name.split('')[0]}${user.lastName.split('')[0]}</p>`;
         userName.innerHTML =`<p>${user.name} ${user.lastName}</p>`
 
         profileIcon.addEventListener('click', () => {
@@ -162,7 +162,7 @@ logInForm.addEventListener('submit', function (event) {
         dropMenuAuthorized.style.display = 'block'
         navbarIcon.style.display = 'none'
         profileIcon.style.display = 'block'
-        profileIcon.innerHTML = `<p>${user.name.split('')[0]}${user.lastName.split('')[0]}</p>`;
+        profileIcon.innerHTML = `${user.name.split('')[0]}${user.lastName.split('')[0]}`;
         modalProfileIcon.innerHTML = `<p>${user.name.split('')[0]}${user.lastName.split('')[0]}</p>`;
         userName.innerHTML =`<p>${user.name} ${user.lastName}</p>`
         profileIcon.addEventListener('click', () => {
