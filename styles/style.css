@@ -750,6 +750,7 @@ background-color: #000;
     position: absolute;
     bottom: 14px;
     left: 19px;
+    border: #000 1px solid;
 }
 
 .fav-book__img {
